@@ -1,6 +1,6 @@
 # Engula Operator
 
-The [engula operator][] manages engula clusters deployed to Kubernetes and automates tasks related to operating an engula cluster.
+The [engula-operator][] manages engula clusters deployed to Kubernetes and automates tasks related to operating an engula cluster.
 
 ## Background
 
@@ -16,7 +16,7 @@ The TiDB server has a distributed architecture with flexible and elastic scalabi
 
 Engula is one of the potential storage engines that can serve data read/write requests from the TiDB servers. Engula is designed to be elastic, adaptive and extensible. The combination offers a totally new experience in addition to the many new features.
 
-There is a TiDB operator to deploy TiDB clusters on Kubernetes, which uses TiKV as the default storage layer. The [engula-operator] is proposed to bridge the gap between TiDB and Engula.
+There is a TiDB operator to deploy TiDB clusters on Kubernetes, which uses TiKV as the default storage layer. The [engula-operator][] is proposed to bridge the gap between TiDB and Engula.
 
 ## Design
 
